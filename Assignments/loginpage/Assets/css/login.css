@@ -1,0 +1,71 @@
+body {
+    width: 25%;
+    /* height: 60; */
+    margin: 20%;
+    text-align: center;
+    background-color: rgb(166, 236, 233);
+    padding-left: 20%;
+}
+
+/* 
+input[type="email"],
+input[type="password"]
+{
+    margin-top: 20px;
+    height: 50%;
+} */
+
+/* Formatting the input box ie. Email and Password Field  */
+input[type="email"],
+input[type="password"] {
+    margin-top: 40px;
+    /*eight: 50%;*/
+    width: 50%; 
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+}
+
+
+/* Formatting the Submit Button */
+input[type="submit"] {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    background-color: lightseagreen;
+    border-radius: 15%;
+    margin-top: 5%;
+}
+
+/* Removing underline from the sign-up, forgot password and login  */
+a {
+    text-decoration: none;
+}
+
+/* login form formatting  */
+#login-form {
+
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5%;
+    box-shadow: black;
+}
+
+/* Header Login Color change */ 
+h1 {
+    color: aquamarine;
+}
+
+.checkBox1
+{   
+    
+    margin-right: 20%;
+    margin-top: 5px;
+}
