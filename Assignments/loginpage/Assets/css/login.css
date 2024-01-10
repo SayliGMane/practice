@@ -18,29 +18,43 @@ input[type="password"]
 /* Formatting the input box ie. Email and Password Field  */
 input[type="email"],
 input[type="password"] {
-    margin-top: 40px;
+    margin-top: 20px;
+    
     /*eight: 50%;*/
     width: 50%; 
     padding-top:2%;
-    padding-bottom: 2%;
+   padding-bottom: 2%;
     padding-left: 2%;
 
 }
 
 
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background-color: rgb(199, 216, 210) ;
+}
+
+input[type="submit"]:hover
+{
+    font-size: large;
+    transition-duration: 75ms;
+
+}  
+
 /* Formatting the Submit Button */
 input[type="submit"] {
-    border: none;
+    border:50%;
+    border-color: darkslategrey;
+    box-shadow: 4px 4px 4px gray;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     cursor: pointer;
     color: white;
-    padding: 5px;
-    background-color: lightseagreen;
+    padding: 5px;   
+    background-image: linear-gradient(to bottom, rgb(13, 87, 83) , rgb(200, 221, 214));
     border-radius: 15%;
     margin-top: 5%;
 }
+
 
 /* Removing underline from the sign-up, forgot password and login  */
 a {
@@ -49,23 +63,23 @@ a {
 
 /* login form formatting  */
 #login-form {
-
     background-color: whitesmoke;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
     border-radius: 5%;
-    box-shadow: black;
+    box-shadow: 4px 4px 4px gray;
 }
 
 /* Header Login Color change */ 
 h1 {
-    color: aquamarine;
+    color: rgb(13, 87, 83);
 }
 
 .checkBox1
 {   
     
     margin-right: 20%;
-    margin-top: 5px;
+    margin-top: 70px;
+
 }
