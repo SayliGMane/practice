@@ -10,12 +10,12 @@
 </head>
 <body>
     
-    <form>
+    <form name="login_form" onsubmit="return validation()">
         
         <div id="login-form">
             <h1>Login</h1>
-            <input type="email" placeholder="Email"/> <br/>
-            <input type="password" placeholder="Password"/> <br/>
+            <input type="email" name="email" placeholder="Email" /> <br/>
+            <input type="password" name="password" placeholder="Password"/> <br/>
             <span class="checkBox1">
             <input type="checkbox" /> <label>Show Password</label></span><br/>
             <input type="submit" value = "Sign In"/><br/>
@@ -24,6 +24,6 @@
         </div>
 
     </form>
-    
+    <script type="text/javascript" src="Assets/js/login.js"></script>
 </body>
 </html>
