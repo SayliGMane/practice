@@ -9,21 +9,23 @@
     <link rel="stylesheet" type="text/css" href="Assets/css/login.css" />
 </head>
 <body>
-    
+     <!--Creating the login Form--> 
     <form name="login_form" onsubmit="return validation()">
         
         <div id="login-form">
             <h1>Login</h1>
-            <input type="email" name="email" placeholder="Email" /> <br/>
-            <input type="password" name="password" placeholder="Password"/> <br/>
+            <!--Creating the inputs like email address, Password & checkbox--> 
+            <input type="email" name="email" placeholder="Email" onkeyup="activateSubmit()"/> <br/>
+            <input type="password" name="password" placeholder="Password"  onkeyup="activateSubmit()" id="Password"/> <br/>
             <span class="checkBox1">
-            <input type="checkbox" /> <label>Show Password</label></span><br/>
-            <input type="submit" value = "Sign In"/><br/>
+            <input type="checkbox" onclick="ShowPassword()"/><label>Show Password</label></span><br/>
+            <input class="SignInDisabled" type="submit" id = "SignInButton" value = "Sign In"/><br/>
             <p >Forgot <a href="">Username</a>/<a href="">Password</a>?</p>
-            <p>Don't have an account? <a href=""> Sign Up</a></p>
+            <p>Don't have an account? <a href="https://sayligmane.github.io/portfolio/form.html"> Sign Up</a></p>
         </div>
 
     </form>
+    <!--Linking java script file to login.htm--> 
     <script type="text/javascript" src="Assets/js/login.js"></script>
 </body>
 </html>
